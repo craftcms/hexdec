@@ -28,7 +28,7 @@ class HexdecPlugin extends BasePlugin
 
 	public function addTwigExtension()
 	{
-		Craft::import('plugins.anchors.twigextensions.HexdecTwigExtension');
+		Craft::import('plugins.hexdec.twigextensions.HexdecTwigExtension');
 		return new HexdecTwigExtension();
 	}
 }
