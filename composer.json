@@ -1,0 +1,46 @@
+{
+  "name": "craftcms/hexdec",
+  "description":"Adds a new hexdec filter to Craft, which will replace a hecidecimal value with a decimal one.",
+  "version": "2.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "cms",
+    "craftcms",
+    "json",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pixel & Tonic",
+      "homepage": "https://pixelandtonic.com/"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/craftcms/hex-dec/issues?state=open",
+    "source": "https://github.com/craftcms/hex-dec",
+    "docs": "https://github.com/craftcms/hex-dec",
+    "rss": "https://github.com/craftcms/hex-dec/commits/master.atom"
+  },
+  "require": {
+    "craftcms/cms": "~3.0.0-beta.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "craft\\hexdec\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "extra": {
+    "name": "hexdec",
+    "handle": "hexdec",
+    "changelogUrl": "https://raw.githubusercontent.com/craftcms/hexdec/master/CHANGELOG.md",
+    "downloadUrl": "https://github.com/craftcms/hexdec/archive/master.zip"
+  }
+}
