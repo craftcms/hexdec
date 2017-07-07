@@ -6,7 +6,6 @@
   "keywords": [
     "cms",
     "craftcms",
-    "json",
     "yii2"
   ],
   "license": "MIT",
@@ -18,13 +17,13 @@
   ],
   "support": {
     "email": "support@craftcms.com",
-    "issues": "https://github.com/craftcms/hex-dec/issues?state=open",
-    "source": "https://github.com/craftcms/hex-dec",
-    "docs": "https://github.com/craftcms/hex-dec",
-    "rss": "https://github.com/craftcms/hex-dec/commits/master.atom"
+    "issues": "https://github.com/craftcms/hexdec/issues?state=open",
+    "source": "https://github.com/craftcms/hexdec",
+    "docs": "https://github.com/craftcms/hexdec",
+    "rss": "https://github.com/craftcms/hexdec/commits/master.atom"
   },
   "require": {
-    "craftcms/cms": "~3.0.0-beta.1"
+    "craftcms/cms": "~3.0.0-beta.20"
   },
   "autoload": {
     "psr-4": {
@@ -38,9 +37,9 @@
     }
   ],
   "extra": {
-    "name": "hexdec",
+    "name": "Hexdec",
     "handle": "hexdec",
-    "changelogUrl": "https://raw.githubusercontent.com/craftcms/hexdec/master/CHANGELOG.md",
-    "downloadUrl": "https://github.com/craftcms/hexdec/archive/master.zip"
+    "changelogUrl": "https://raw.githubusercontent.com/craftcms/hexdec/v2/CHANGELOG.md",
+    "downloadUrl": "https://github.com/craftcms/hexdec/archive/v2.zip"
   }
 }

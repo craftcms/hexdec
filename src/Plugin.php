@@ -1,16 +1,20 @@
 <?php
+/**
+ * @link      https://craftcms.com/
+ * @copyright Copyright (c) Pixel & Tonic, Inc.
+ * @license   https://craftcms.com/license
+ */
+
 namespace craft\hexdec;
 
 use Craft;
-use craft\hexdec\twigextensions\HexdecTwigExtension;
+use craft\hexdec\TwigExtension;
 
 /**
  * Hexdec plugin class
  */
-
 class Plugin extends \craft\base\Plugin
 {
-
     /**
      * @inheritdoc
      */
@@ -19,7 +23,6 @@ class Plugin extends \craft\base\Plugin
         parent::init();
 
         // Add in our Twig extensions
-        Craft::$app->view->twig->addExtension(new HexdecTwigExtension());
-
+        Craft::$app->view->twig->addExtension(new TwigExtension());
     }
 }
