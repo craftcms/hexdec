@@ -1,7 +1,7 @@
 HEXDEC for Craft CMS
 ===================
 
-This plugin Adds a new hexdec Twig filter to Craft, which will replace a hecidecimal value with a decimal one. [Craft CMS](https://craftcms.com).
+This plugin Adds a new hexdec Twig filter to Craft, which will replace a hecidecimal value with a decimal one.
 
 ## Requirements
 
