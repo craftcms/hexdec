@@ -8,7 +8,6 @@
 namespace craft\hexdec;
 
 use Craft;
-use craft\hexdec\TwigExtension;
 
 /**
  * Hexdec plugin class
@@ -23,6 +22,6 @@ class Plugin extends \craft\base\Plugin
         parent::init();
 
         // Add in our Twig extensions
-        Craft::$app->view->twig->addExtension(new TwigExtension());
+        Craft::$app->getView()->getTwig()->addExtension(new TwigExtension());
     }
 }
