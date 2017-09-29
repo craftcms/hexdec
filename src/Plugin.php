@@ -23,7 +23,7 @@ class Plugin extends \craft\base\Plugin
 
         if (Craft::$app->getRequest()->getIsSiteRequest()) {
             // Add in our Twig extension
-            Craft::$app->getView()->getTwig()->addExtension(new TwigExtension());
+            Craft::$app->getView()->registerTwigExtension(new TwigExtension());
         }
     }
 }
