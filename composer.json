@@ -1,7 +1,7 @@
 {
   "name": "craftcms/hexdec",
   "description":"Adds a new hexdec filter to Craft, which will convert a hexadecimal value to a decimal.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "craft-plugin",
   "keywords": [
     "cms",
@@ -23,7 +23,7 @@
     "rss": "https://github.com/craftcms/hexdec/commits/master.atom"
   },
   "require": {
-    "craftcms/cms": "~3.0.0-beta.27"
+    "craftcms/cms": "^3.0.0-beta.27"
   },
   "autoload": {
     "psr-4": {
