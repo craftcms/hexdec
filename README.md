@@ -1,5 +1,4 @@
-Hexdec for Craft CMS
-====================
+# Hexdec for Craft CMS
 
 This plugin adds a new `|hexdec` Twig filter to Craft, which will convert a hexadecimal value to a decimal.
 
