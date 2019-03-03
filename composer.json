@@ -20,7 +20,7 @@
     "email": "support@craftcms.com",
     "issues": "https://github.com/craftcms/hexdec/issues?state=open",
     "source": "https://github.com/craftcms/hexdec",
-    "docs": "https://github.com/craftcms/hexdec",
+    "docs": "https://github.com/craftcms/hexdec/blob/v2/README.md",
     "rss": "https://github.com/craftcms/hexdec/commits/master.atom"
   },
   "require": {
@@ -34,7 +34,6 @@
   "extra": {
     "name": "Hexdec",
     "handle": "hexdec",
-    "changelogUrl": "https://raw.githubusercontent.com/craftcms/hexdec/v2/CHANGELOG.md",
-    "downloadUrl": "https://github.com/craftcms/hexdec/archive/v2.zip"
+    "documentationUrl": "https://github.com/craftcms/hexdec/blob/v2/README.md"
   }
 }
