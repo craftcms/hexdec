@@ -7,10 +7,13 @@
 
 namespace craft\hexdec;
 
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFilter;
+
 /**
  * Hexdec Twig Extension
  */
-class TwigExtension extends \Twig_Extension
+class TwigExtension extends AbstractExtension
 {
     /**
      * Returns the name of the extension.
@@ -28,7 +31,7 @@ class TwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('hexdec', 'hexdec'),
+            new TwigFilter('hexdec', 'hexdec'),
         ];
     }
 }
