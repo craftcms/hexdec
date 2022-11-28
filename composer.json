@@ -1,6 +1,6 @@
 {
   "name": "craftcms/hexdec",
-  "description":"Adds a new hexdec filter to Craft, which will convert a hexadecimal value to a decimal.",
+  "description": "Adds a new hexdec filter to Craft, which will convert a hexadecimal value to a decimal.",
   "type": "craft-plugin",
   "keywords": [
     "cms",
