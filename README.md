@@ -12,7 +12,7 @@ It is a wrapper for PHP’s [hexdec()](http://php.net/manual/en/function.hexdec.
 
 ## Requirements
 
-This plugin requires Craft CMS 4.0 or later.
+This plugin requires Craft CMS 4.0.0+ or 5.0.0+.
 
 ## Installation
 
