@@ -12,7 +12,7 @@ It is a wrapper for PHP’s [hexdec()](http://php.net/manual/en/function.hexdec.
 
 ## Requirements
 
-This plugin requires Craft CMS 4.0.0+ or 5.0.0+ or 6.0.0-alpha.1+ with the `craftcms/yii2-adapter` package.
+This plugin requires Craft CMS 4.0.0+ or 5.0.0+ or 6.0.0-beta.1+ with the `craftcms/yii2-adapter` package.
 
 ## Installation
 
