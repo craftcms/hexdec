@@ -19,13 +19,16 @@
     "email": "support@craftcms.com",
     "issues": "https://github.com/craftcms/hexdec/issues?state=open",
     "source": "https://github.com/craftcms/hexdec",
-    "docs": "https://github.com/craftcms/hexdec/blob/v2/README.md",
-    "rss": "https://github.com/craftcms/hexdec/commits/master.atom"
+    "docs": "https://github.com/craftcms/hexdec/blob/3.x/README.md",
+    "rss": "https://github.com/craftcms/hexdec/commits/3.x.atom"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/cms": "^4.0.0-RC3|^5.0.0-beta.1"
+    "craftcms/cms": "^4.0.0-RC3|^5.0.0-beta.1|^6.0.0-beta.1"
+  },
+  "suggest": {
+    "craftcms/yii2-adapter": "Required to use Hexdec with Craft CMS 6."
   },
   "require-dev": {
     "craftcms/ecs": "dev-main",
@@ -45,7 +48,7 @@
   "extra": {
     "name": "Hexdec",
     "handle": "hexdec",
-    "documentationUrl": "https://github.com/craftcms/hexdec/blob/v2/README.md"
+    "documentationUrl": "https://github.com/craftcms/hexdec/blob/3.x/README.md"
   },
   "config": {
     "platform": {
